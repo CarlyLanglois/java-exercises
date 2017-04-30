@@ -23,6 +23,10 @@ public class ForLoopPractice {
         for i in range(100,0,-1)
             print(i)
         */
+        String msg = "Hello World";
+        for (char c : msg.toCharArray()) {
+            System.out.println(c);
+        }
 
     }
 }
